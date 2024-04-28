@@ -11,7 +11,7 @@ import {
         <AccordionItem value="item-1">
           <AccordionTrigger>Can I get AIIMS Delhi with 650 marks?</AccordionTrigger>
           <AccordionContent>
-            Since you haven't mentioned your category, we would consider you to belong to the General Category. You should aim for at least 700+ to get AIIMS New Delhi. According to last year's data of NEET 2022, an aspirant scoring 650 marks had an AIR of around 4100. Also, with 650 marks, you have greater chances of getting an MBBS seat at AIIMS Jammu, and in the case of a reserved category, a candidate should aim for at least 675+.
+            Since you havent mentioned your category, we would consider you to belong to the General Category. You should aim for at least 700+ to get AIIMS New Delhi. According to last year's data of NEET 2022, an aspirant scoring 650 marks had an AIR of around 4100. Also, with 650 marks, you have greater chances of getting an MBBS seat at AIIMS Jammu, and in the case of a reserved category, a candidate should aim for at least 675+.
 
 
           </AccordionContent>
