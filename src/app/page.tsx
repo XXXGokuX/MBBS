@@ -194,10 +194,10 @@ export default function Home() {
                         Introducing our CollegeDekho Career Compass test, designed to provide you with valuable insights into your personality traits and abilities. This comprehensive assessment tool measures various aspects of your cognitive, emotional, and behavioral characteristics, enabling you to gain a deeper understanding of yourself and how you interact with the world around you.
                       </p>
                       <p className="leading-7 [&:not(:first-child)]:mt-6">
-                        With our CollegeDekho Career Compass test, you'll be able to identify your strengths and weaknesses, which can help you make informed decisions about your career, relationships, and personal growth. Whether you're looking to improve your communication skills, enhance your leadership abilities, or simply better understand yourself, our test can provide you with the guidance you need.
+                        With our CollegeDekho Career Compass test, youll be able to identify your strengths and weaknesses, which can help you make informed decisions about your career, relationships, and personal growth. Whether youre looking to improve your communication skills, enhance your leadership abilities, or simply better understand yourself, our test can provide you with the guidance you need.
                       </p>
                       <p className="leading-7 [&:not(:first-child)]:mt-6">
-                        Our test is easy to use and takes just a few minutes to complete. You'll receive a detailed report with personalized feedback, which can help you identify areas for improvement and set achievable goals. With our CollegeDekho Career Compass test, you'll be able to take control of your personal and professional development and unlock your full potential. Try it today and see the difference it can make in your life.
+                        Our test is easy to use and takes just a few minutes to complete. Youll receive a detailed report with personalized feedback, which can help you identify areas for improvement and set achievable goals. With our CollegeDekho Career Compass test, youll be able to take control of your personal and professional development and unlock your full potential. Try it today and see the difference it can make in your life.
                       </p>
                     </div>
                 </div>
