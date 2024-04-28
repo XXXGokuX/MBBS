@@ -39,7 +39,7 @@ function VideoCard() {
 
                         <div className="flex items-center justify-center h-full md:w-auto ">
                              
-                            <iframe className="w-full h-[65%] md:h-full px-2 md:px-0"  src="https://www.youtube.com/embed/IkeraXTdVS0?si=VJICOY9gxKsda3g_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe className="w-full h-[65%] md:h-full px-2 md:px-0"  src="https://www.youtube.com/embed/IkeraXTdVS0?si=VJICOY9gxKsda3g_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                         </div>
 
                     </div>

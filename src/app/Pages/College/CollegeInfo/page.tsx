@@ -239,7 +239,7 @@ export default function Dashboard() {
                   </CardHeader>
                   <CardContent>
                     <div></div>
-                    <iframe className=" w-full rounded-lg"  src="https://www.youtube.com/embed/IkeraXTdVS0?si=VJICOY9gxKsda3g_" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe className=" w-full rounded-lg"  src="https://www.youtube.com/embed/IkeraXTdVS0?si=VJICOY9gxKsda3g_" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                   </CardContent>
                 </Card>
               </div>
