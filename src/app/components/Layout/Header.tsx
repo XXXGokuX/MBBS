@@ -30,32 +30,32 @@ export function Header() {
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
         <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
           <Link
-            href="#"
+            href="/"
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
             <Package2 className="h-6 w-6" />
             <span className="sr-only">Acme Inc</span>
           </Link>
           <Link
-            href="#"
+            href="/"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Home
           </Link>
           <Link
-            href="#"
+            href="/Pages/Aboutus"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             About 
           </Link>
           <Link
-            href="#"
+            href="/Pages/Contactus"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Contact 
           </Link>
           <Link
-            href="#"
+            href="/Pages/College/AllColleges"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Colleges
@@ -136,12 +136,15 @@ export function Header() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-              <DropdownMenuLabel>My Account</DropdownMenuLabel>
+              <DropdownMenuLabel><Link href='/Pages/signup'>Create Account</Link></DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Settings</DropdownMenuItem>
-              <DropdownMenuItem>Support</DropdownMenuItem>
+              <DropdownMenuItem> <Link href='/Pages/Dashboard/Account'>My Account</Link></DropdownMenuItem>
+
+              <DropdownMenuItem><Link href='/Pages/Dashboard/Profile'>Profile</Link></DropdownMenuItem>
+              <DropdownMenuItem><Link href='/Pages/Dashboard/Bookmarks'>Bookmarks</Link></DropdownMenuItem>
+
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Logout</DropdownMenuItem>
+              <DropdownMenuItem><Link href='/Pages/signin'>Login</Link></DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           <ModeToggle />

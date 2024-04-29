@@ -112,9 +112,9 @@ export function CollegeDetailsCard() {
             <TabsContent value="all">
               <Card x-chunk="dashboard-06-chunk-0">
                 <CardHeader>
-                  <CardTitle>Products</CardTitle>
+                  <CardTitle>All Colleges</CardTitle>
                   <CardDescription>
-                    Manage your products and view their sales performance.
+                    Manage your college and view their performance.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -125,15 +125,15 @@ export function CollegeDetailsCard() {
                           <span className="sr-only">Image</span>
                         </TableHead>
                         <TableHead>Name</TableHead>
-                        <TableHead>Status</TableHead>
+                        <TableHead>Course Offered</TableHead>
                         <TableHead className="hidden md:table-cell">
-                          Price
+                          Tution Fee
                         </TableHead>
                         <TableHead className="hidden md:table-cell">
-                          Total Sales
+                          Location
                         </TableHead>
                         <TableHead className="hidden md:table-cell">
-                          Created at
+                          Exam Accepted
                         </TableHead>
                         <TableHead>
                           <span className="sr-only">Actions</span>
@@ -147,24 +147,24 @@ export function CollegeDetailsCard() {
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="/placeholder.svg"
+                            src="/images/logo/l1.jpeg"
                             width="64"
                           />
                         </TableCell>
                         <TableCell className="font-medium">
-                          Laser Lemonade Machine
+                          All India Institute of Medical Sciences, Delhi
                         </TableCell>
                         <TableCell>
-                          <Badge variant="outline">Draft</Badge>
+                          <Badge variant="outline">1 Course</Badge>
                         </TableCell>
                         <TableCell className="hidden md:table-cell">
                           $499.99
                         </TableCell>
                         <TableCell className="hidden md:table-cell">
-                          25
+                          New Delhi
                         </TableCell>
                         <TableCell className="hidden md:table-cell">
-                          2023-07-12 10:42 AM
+                          NEET
                         </TableCell>
                         <TableCell>
                           <DropdownMenu>
@@ -180,36 +180,85 @@ export function CollegeDetailsCard() {
                             </DropdownMenuTrigger>
                             <DropdownMenuContent align="end">
                               <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                              <DropdownMenuItem>Edit</DropdownMenuItem>
-                              <DropdownMenuItem>Delete</DropdownMenuItem>
+                              <DropdownMenuItem>Save</DropdownMenuItem>
+                              <DropdownMenuItem>More Details</DropdownMenuItem>
                             </DropdownMenuContent>
                           </DropdownMenu>
                         </TableCell>
                       </TableRow>
+                      
+                      {/* Row 1 */}
+                        <TableRow>
+                          <TableCell className="hidden sm:table-cell">
+                            <Image
+                              alt="Product image"
+                              className="aspect-square rounded-md object-cover"
+                              height="64"
+                              src="/images/logo/l1.jpeg"
+                              width="64"
+                            />
+                          </TableCell>
+                          <TableCell className="font-medium">
+                            University of California, Los Angeles
+                          </TableCell>
+                          <TableCell>
+                            <Badge variant="outline">3 Courses</Badge>
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            $899.99
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Los Angeles
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Medical School
+                          </TableCell>
+                          <TableCell>
+                            <DropdownMenu>
+                              <DropdownMenuTrigger asChild>
+                                <Button
+                                  aria-haspopup="true"
+                                  size="icon"
+                                  variant="ghost"
+                                >
+                                  <MoreHorizontal className="h-4 w-4" />
+                                  <span className="sr-only">Toggle menu</span>
+                                </Button>
+                              </DropdownMenuTrigger>
+                              <DropdownMenuContent align="end">
+                                <DropdownMenuLabel>Actions</DropdownMenuLabel>
+                                <DropdownMenuItem>Save</DropdownMenuItem>
+                                <DropdownMenuItem>More Details</DropdownMenuItem>
+                              </DropdownMenuContent>
+                            </DropdownMenu>
+                          </TableCell>
+                        </TableRow>
+
+                      {/* Row 2 */}
                       <TableRow>
                         <TableCell className="hidden sm:table-cell">
                           <Image
                             alt="Product image"
                             className="aspect-square rounded-md object-cover"
                             height="64"
-                            src="/placeholder.svg"
+                            src="/images/logo/l1.jpeg"
                             width="64"
                           />
                         </TableCell>
                         <TableCell className="font-medium">
-                          Hypernova Headphones
+                          Stanford University Medical Center
                         </TableCell>
                         <TableCell>
-                          <Badge variant="outline">Active</Badge>
+                          <Badge variant="outline">2 Courses</Badge>
                         </TableCell>
                         <TableCell className="hidden md:table-cell">
-                          $129.99
+                          $749.99
                         </TableCell>
                         <TableCell className="hidden md:table-cell">
-                          100
+                          Stanford
                         </TableCell>
                         <TableCell className="hidden md:table-cell">
-                          2023-10-18 03:21 PM
+                          Surgery
                         </TableCell>
                         <TableCell>
                           <DropdownMenu>
@@ -225,192 +274,153 @@ export function CollegeDetailsCard() {
                             </DropdownMenuTrigger>
                             <DropdownMenuContent align="end">
                               <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                              <DropdownMenuItem>Edit</DropdownMenuItem>
-                              <DropdownMenuItem>Delete</DropdownMenuItem>
+                              <DropdownMenuItem>Save</DropdownMenuItem>
+                              <DropdownMenuItem>More Details</DropdownMenuItem>
                             </DropdownMenuContent>
                           </DropdownMenu>
                         </TableCell>
                       </TableRow>
-                      <TableRow>
-                        <TableCell className="hidden sm:table-cell">
-                          <Image
-                            alt="Product image"
-                            className="aspect-square rounded-md object-cover"
-                            height="64"
-                            src="/placeholder.svg"
-                            width="64"
-                          />
-                        </TableCell>
-                        <TableCell className="font-medium">
-                          AeroGlow Desk Lamp
-                        </TableCell>
-                        <TableCell>
-                          <Badge variant="outline">Active</Badge>
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          $39.99
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          50
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          2023-11-29 08:15 AM
-                        </TableCell>
-                        <TableCell>
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button
-                                aria-haspopup="true"
-                                size="icon"
-                                variant="ghost"
-                              >
-                                <MoreHorizontal className="h-4 w-4" />
-                                <span className="sr-only">Toggle menu</span>
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                              <DropdownMenuItem>Edit</DropdownMenuItem>
-                              <DropdownMenuItem>Delete</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
-                        </TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell className="hidden sm:table-cell">
-                          <Image
-                            alt="Product image"
-                            className="aspect-square rounded-md object-cover"
-                            height="64"
-                            src="/placeholder.svg"
-                            width="64"
-                          />
-                        </TableCell>
-                        <TableCell className="font-medium">
-                          TechTonic Energy Drink
-                        </TableCell>
-                        <TableCell>
-                          <Badge variant="secondary">Draft</Badge>
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          $2.99
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          0
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          2023-12-25 11:59 PM
-                        </TableCell>
-                        <TableCell>
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button
-                                aria-haspopup="true"
-                                size="icon"
-                                variant="ghost"
-                              >
-                                <MoreHorizontal className="h-4 w-4" />
-                                <span className="sr-only">Toggle menu</span>
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                              <DropdownMenuItem>Edit</DropdownMenuItem>
-                              <DropdownMenuItem>Delete</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
-                        </TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell className="hidden sm:table-cell">
-                          <Image
-                            alt="Product image"
-                            className="aspect-square rounded-md object-cover"
-                            height="64"
-                            src="/placeholder.svg"
-                            width="64"
-                          />
-                        </TableCell>
-                        <TableCell className="font-medium">
-                          Gamer Gear Pro Controller
-                        </TableCell>
-                        <TableCell>
-                          <Badge variant="outline">Active</Badge>
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          $59.99
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          75
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          2024-01-01 12:00 AM
-                        </TableCell>
-                        <TableCell>
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button
-                                aria-haspopup="true"
-                                size="icon"
-                                variant="ghost"
-                              >
-                                <MoreHorizontal className="h-4 w-4" />
-                                <span className="sr-only">Toggle menu</span>
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                              <DropdownMenuItem>Edit</DropdownMenuItem>
-                              <DropdownMenuItem>Delete</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
-                        </TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell className="hidden sm:table-cell">
-                          <Image
-                            alt="Product image"
-                            className="aspect-square rounded-md object-cover"
-                            height="64"
-                            src="/placeholder.svg"
-                            width="64"
-                          />
-                        </TableCell>
-                        <TableCell className="font-medium">
-                          Luminous VR Headset
-                        </TableCell>
-                        <TableCell>
-                          <Badge variant="outline">Active</Badge>
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          $199.99
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          30
-                        </TableCell>
-                        <TableCell className="hidden md:table-cell">
-                          2024-02-14 02:14 PM
-                        </TableCell>
-                        <TableCell>
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button
-                                aria-haspopup="true"
-                                size="icon"
-                                variant="ghost"
-                              >
-                                <MoreHorizontal className="h-4 w-4" />
-                                <span className="sr-only">Toggle menu</span>
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                              <DropdownMenuItem>Edit</DropdownMenuItem>
-                              <DropdownMenuItem>Delete</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
-                        </TableCell>
-                      </TableRow>
+
+                      {/* Row 3 */}
+                        <TableRow>
+                          <TableCell className="hidden sm:table-cell">
+                            <Image
+                              alt="Product image"
+                              className="aspect-square rounded-md object-cover"
+                              height="64"
+                              src="/images/logo/l1.jpeg"
+                              width="64"
+                            />
+                          </TableCell>
+                          <TableCell className="font-medium">
+                            Harvard Medical School
+                          </TableCell>
+                          <TableCell>
+                            <Badge variant="outline">5 Courses</Badge>
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            $1299.99
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Boston
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Medicine
+                          </TableCell>
+                          <TableCell>
+                            <DropdownMenu>
+                              <DropdownMenuTrigger asChild>
+                                <Button
+                                  aria-haspopup="true"
+                                  size="icon"
+                                  variant="ghost"
+                                >
+                                  <MoreHorizontal className="h-4 w-4" />
+                                  <span className="sr-only">Toggle menu</span>
+                                </Button>
+                              </DropdownMenuTrigger>
+                              <DropdownMenuContent align="end">
+                                <DropdownMenuLabel>Actions</DropdownMenuLabel>
+                                <DropdownMenuItem>Save</DropdownMenuItem>
+                                <DropdownMenuItem>More Details</DropdownMenuItem>
+                              </DropdownMenuContent>
+                            </DropdownMenu>
+                          </TableCell>
+                        </TableRow>
+
+                        {/* Row 4 */}
+                        <TableRow>
+                          <TableCell className="hidden sm:table-cell">
+                            <Image
+                              alt="Product image"
+                              className="aspect-square rounded-md object-cover"
+                              height="64"
+                              src="/images/logo/l1.jpeg"
+                              width="64"
+                            />
+                          </TableCell>
+                          <TableCell className="font-medium">
+                            Johns Hopkins School of Medicine
+                          </TableCell>
+                          <TableCell>
+                            <Badge variant="outline">4 Courses</Badge>
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            $999.99
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Baltimore
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Research
+                          </TableCell>
+                          <TableCell>
+                            <DropdownMenu>
+                              <DropdownMenuTrigger asChild>
+                                <Button
+                                  aria-haspopup="true"
+                                  size="icon"
+                                  variant="ghost"
+                                >
+                                  <MoreHorizontal className="h-4 w-4" />
+                                  <span className="sr-only">Toggle menu</span>
+                                </Button>
+                              </DropdownMenuTrigger>
+                              <DropdownMenuContent align="end">
+                                <DropdownMenuLabel>Actions</DropdownMenuLabel>
+                                <DropdownMenuItem>Save</DropdownMenuItem>
+                                <DropdownMenuItem>More Details</DropdownMenuItem>
+                              </DropdownMenuContent>
+                            </DropdownMenu>
+                          </TableCell>
+                        </TableRow>
+
+                        {/* Row 5 */}
+                        <TableRow>
+                          <TableCell className="hidden sm:table-cell">
+                            <Image
+                              alt="Product image"
+                              className="aspect-square rounded-md object-cover"
+                              height="64"
+                              src="/images/logo/l1.jpeg"
+                              width="64"
+                            />
+                          </TableCell>
+                          <TableCell className="font-medium">
+                            University of Toronto Faculty of Medicine
+                          </TableCell>
+                          <TableCell>
+                            <Badge variant="outline">3 Courses</Badge>
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            $799.99
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Toronto
+                          </TableCell>
+                          <TableCell className="hidden md:table-cell">
+                            Medical Research
+                          </TableCell>
+                          <TableCell>
+                            <DropdownMenu>
+                              <DropdownMenuTrigger asChild>
+                                <Button
+                                  aria-haspopup="true"
+                                  size="icon"
+                                  variant="ghost"
+                                >
+                                  <MoreHorizontal className="h-4 w-4" />
+                                  <span className="sr-only">Toggle menu</span>
+                                </Button>
+                              </DropdownMenuTrigger>
+                              <DropdownMenuContent align="end">
+                                <DropdownMenuLabel>Actions</DropdownMenuLabel>
+                                <DropdownMenuItem>Save</DropdownMenuItem>
+                                <DropdownMenuItem>More Details</DropdownMenuItem>
+                              </DropdownMenuContent>
+                            </DropdownMenu>
+                          </TableCell>
+                        </TableRow>
                     </TableBody>
                   </Table>
                 </CardContent>
